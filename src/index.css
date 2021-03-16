@@ -1,9 +1,9 @@
 body {
   margin: 0;
-  font-family:'Roboto', 'Helvetica Neue',sans-serif;
+  font-family:'Helvetica',sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background: #2F4454;
+  background-color: #2F4454;
 }
 
 button {
@@ -11,6 +11,6 @@ button {
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: 'Courier New'
     monospace;
 }
