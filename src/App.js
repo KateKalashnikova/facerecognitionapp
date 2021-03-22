@@ -79,7 +79,7 @@ class App extends React.Component {
 
 onButtonSubmit = () => {
   this.setState({imageURL: this.state.input});
-     fetch('http://localhost:3001/imageUrl', {
+     fetch('https://quiet-reef-42657.herokuapp.com/imageUrl', {
           method:'post',
           headers:{'Content-Type': 'application/json'},
           body: JSON.stringify({
@@ -89,7 +89,7 @@ onButtonSubmit = () => {
        .then (response => response.json())
       .then (response => {
       if (response) {
-        fetch('http://localhost:3001/image', {
+        fetch('https://quiet-reef-42657.herokuapp.com/image', {
           method:'put',
           headers:{'Content-Type': 'application/json'},
           body: JSON.stringify({
@@ -139,6 +139,7 @@ render()  {
           this.state.route === 'signin' 
           ? <Signin loadUser={this.loadUser} onRouteChange={this.onRouteChange}/>
           : <Register loadUser={this.loadUser} onRouteChange={this.onRouteChange}/>
+
           )
         }
       </div>

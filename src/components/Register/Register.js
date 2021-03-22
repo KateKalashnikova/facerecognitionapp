@@ -6,7 +6,10 @@ constructor(props) {
 		this.state = {
 			email:'',
 			password:'',
-			name:''
+			name:'',
+			nameError:'',
+			emailError:'',
+			passwordError:''
 		}
 	}
 
@@ -23,7 +26,7 @@ constructor(props) {
   }
 
   onSubmitSignIn = () => {
-		fetch('http://localhost:3001/register',{
+		fetch('https://quiet-reef-42657.herokuapp.com/register',{
 			method:'post',
 			headers:{'Content-Type': 'application/json'},
 			body: JSON.stringify({
@@ -56,7 +59,7 @@ constructor(props) {
 		        id="name"
 		        onChange={this.onNameChange}
 		        />
-		      </div>
+		       </div>
 		      <div className="mt3">
 		        <label className="db fw6 lh-copy f6" htmlFor="email-address">Email</label>
 		        <input className="pa2 input-reset b--light-green ba bg-transparent hover-bg-black hover-white w-100" 
