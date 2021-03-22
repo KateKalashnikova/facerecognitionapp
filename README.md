@@ -10,11 +10,12 @@ Final Project of The Complete Web Developer in 2021: Zero to Mastery course. Thi
 ✔️Enhanced Security  
 ✔️Cool logo animation  
 
-## Technologies🚀
+## Technologies💫
 
-✔️HTML/CSS/JavaScript + React.js  
+✔️HTML/CSS/JavaScript + React.js   
+✔️Clarifai: AI/ML model to detect human faces in pictures  
 ✔️Server: Node.js/Express.js  
-✔️Database: PostgreSQL   
+✔️Database: PostgreSQL  
 ✔️Libraries:  
 * Tachyons and Particles.js for frontend
 * Bcrypt.js, CORS for enhanced security
