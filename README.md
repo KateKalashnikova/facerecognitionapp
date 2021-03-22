@@ -14,10 +14,11 @@ Final Project of The Complete Web Developer in 2021: Zero to Mastery course. Thi
 
 ✔️HTML/CSS/JavaScript + React.js  
 ✔️Server: Node.js/Express.js  
-✔️Database: PostgreSQL 
+✔️Database: PostgreSQL   
 ✔️Libraries:  
 * Tachyons and Particles.js for frontend
 * Bcrypt.js, CORS for enhanced security
-* Knex.js to connect server to PostgreSQL database    
-✔️Heroku for deployment
+* Knex.js to connect server to PostgreSQL database  
+  
+✔️Deployed on Heroku
   
